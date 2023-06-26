@@ -42,7 +42,7 @@
               {{ end }}
 
               <!-- 언어 전환 메뉴 -->
-              {{ $currentLang := .Site.Language.LanguageCode }}
+              {{ $currentLang := .Site.LanguageCode }}
               {{ range .Translations }}
               {{ if ne .Language.LanguageCode $currentLang }}
               <li class="nav-item">
