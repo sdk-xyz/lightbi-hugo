@@ -3,7 +3,7 @@
 
 name = "Lightbi"
 license = "MIT"
-licenselink = "https://github.com/binokochumolvarghese/lightbi-hugo/blob/master/LICENSE"
+licenselink = "https://github.com/binokochumolsundokim/lightbi-hugo/blob/master/LICENSE"
 description = ""
 homepage = "https://sdk.xyz"
 tags = ["blog", "company", "portfolio", "projects", "minimal", "responsive", "seo", "google analytics", "bootstrap", "light", "syntax highlighting", "multilingual", "portfolio", "projects", "mobile", "technical"]
@@ -11,7 +11,7 @@ features = ["blog", "company", "portfolio", "projects", "minimal", "responsive",
 min_version = "0.41.0"
 
 [author]
-  name = "Bino Kochumol Varghese"
+  name = "Bino Kochumol sundokim"
   homepage = "https://sdk.xyz"
 
 # If porting an existing theme

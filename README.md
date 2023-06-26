@@ -6,7 +6,7 @@ Lightbi is a minimal and clean blog theme for Hugo.
 
 [lightbi-hugo-theme.netlify.app](https://lightbi-hugo-theme.netlify.app/)
 
-![LightBi Hugo Theme Screenshot](https://raw.githubusercontent.com/binokochumolvarghese/lightbi-hugo/master/images/screenshot.png)
+![LightBi Hugo Theme Screenshot](https://raw.githubusercontent.com/binokochumolsundokim/lightbi-hugo/master/images/screenshot.png)
 
 ## Features
 
@@ -41,7 +41,7 @@ Install Hugo and create a new site. See [the Hugo documentation](https://gohugo.
 hugo new site <name of site>
 cd <name of site>
 git init
-git submodule add https://github.com/binokochumolvarghese/lightbi-hugo themes/lightbi-hugo
+git submodule add https://github.com/binokochumolsundokim/lightbi-hugo themes/lightbi-hugo
 echo "theme = 'lightbi-hugo'" >> config.toml
 hugo server
 ```
@@ -50,7 +50,7 @@ After the above copy the contents of `exampleSite` to the `content` folder in yo
 
 ## For more
 
-Checkout the [wiki](https://github.com/binokochumolvarghese/lightbi-hugo/wiki) page for detailed documentation of the theme features.
+Checkout the [wiki](https://github.com/binokochumolsundokim/lightbi-hugo/wiki) page for detailed documentation of the theme features.
 
 ## Credits
 
@@ -63,5 +63,5 @@ This is an adaptation of the [Beautiful Hugo](https://github.com/halogenica/beau
 
 ## License
 
-MIT Licensed, see [LICENSE](https://github.com/binokochumolvarghese/lightbi-hugo/blob/master/LICENSE).
+MIT Licensed, see [LICENSE](https://github.com/binokochumolsundokim/lightbi-hugo/blob/master/LICENSE).
 
