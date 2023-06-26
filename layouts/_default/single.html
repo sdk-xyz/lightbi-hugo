@@ -52,7 +52,7 @@
                     <div class="col-md-2 ">
                         <div class="card-body ">
 <!--                            <img src="{{ "/img/bino-about-small.jpg" }}" class="img-responsive img-50 img-round" alt="">-->
-                            <img src="{{ "/img/sdk-about-smll.jpg" }}" class="img-responsive img-50 img-round" alt="">
+                            <img src="{{ "/img/sdk-about-small.jpg" }}" class="img-responsive img-50 img-round" alt="">
                         </div>
                     </div>
                     <div class="col-md-10">
@@ -75,16 +75,17 @@
 
 
             </div>
-        </div>
 
-        <div id="utterances"></div>
-        <script src="https://utteranc.es/client.js"
-                repo="sundoforce/blog-comments"
-                issue-term="pathname"
-                theme="github-light"
-                crossorigin="anonymous"
-                async>
-        </script>
+
+            <div id="utterances"></div>
+            <script src="https://utteranc.es/client.js"
+                    repo="sundoforce/blog-comments"
+                    issue-term="pathname"
+                    theme="github-light"
+                    crossorigin="anonymous"
+                    async>
+            </script>
+        </div>
 
         <div class="col-lg-8 offset-lg-2 col-md-10 offset-md-1 pt-4">
             {{ if ne .Type "page" }}
