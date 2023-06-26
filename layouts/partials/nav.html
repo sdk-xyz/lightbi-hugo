@@ -8,7 +8,7 @@
 
           <a class="navbar-brand fw-bold" href="{{ "" | absLangURL }}">{{ .Site.Title }}</a>
           <button class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#navbarNav"
-            aria-controls="navbarNav" aria-expanded="false" aria-label="Toggle navigation">
+                  aria-controls="navbarNav" aria-expanded="false" aria-label="Toggle navigation">
             <span class="navbar-toggler-icon"></span>
           </button>
 
@@ -35,14 +35,26 @@
                 {{ $active = or $active (and (eq .Name "About") (eq $current.Section "about")) }}
 
                 <a class="nav-link {{ if $active }} active {{ end }}" title="{{ .Name }}"
-                  href="{{ .URL  | relLangURL }}"> {{ .Name }}</a>
+                   href="{{ .URL  | relLangURL }}"> {{ .Name }}</a>
               </li>
 
               {{ end }}
               {{ end }}
 
+                <!-- 언어 전환 메뉴 -->
+                {{ if .Page }}
+                {{ $currentLang := .Page.Lang }}
+                {{ range .Page.Translations }}
+                {{ if ne .Lang $currentLang }}
+                <li class="nav-item">
+                    <a class="nav-link" href="{{ .Permalink }}">{{ .Lang }}</a>
+                </li>
+                {{ end }}
+                {{ end }}
+                {{ end }}
 
-              <li class="nav-item nav-link">
+
+                <li class="nav-item nav-link">
                 <a id="dark-mode-toggle" class="bi bi-sun"></a>
               </li>
 
