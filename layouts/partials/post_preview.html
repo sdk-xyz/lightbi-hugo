@@ -17,10 +17,9 @@
                 <div class="post-entry">
 
                     {{ if .Description }}
-<!--                    {{ .Description }}-->
-                    {{ .Content | plainify | truncate 100 }}
+                    {{ .Description }}
                     {{ else }}
-                    {{ .Content }}
+                    {{ .Content | plainify | truncate 100 }}
                     {{ end }}
                 </div>
 
