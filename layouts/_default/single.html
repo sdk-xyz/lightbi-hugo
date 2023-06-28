@@ -15,11 +15,22 @@
             </div>
         </div>
 
-        <div class="col-lg-8 offset-lg-2 col-md-10 offset-md-1">
+<!--        <div class="col-lg-8 offset-lg-2 col-md-10 offset-md-1">-->
+<!--            <article role="main" class="blog-post">-->
+<!--                        {{ .Content }}-->
+<!--            </article>-->
+<!--        </div>-->
+        <!-- Column for main content -->
+        <div class="col-lg-8 offset-lg-2 col-md-10 offset-md-1 ">
             <article role="main" class="blog-post">
-                        {{ .Content }}
+                {{ .Content }}
             </article>
         </div>
+        <!-- Column for ToC -->
+        <div class="col-lg-2 col-md-2 toc">
+            {{ partial "toc.html" . }}
+        </div>
+
     </div>
 
     <div class="row">
