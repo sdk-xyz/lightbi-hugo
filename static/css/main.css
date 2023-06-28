@@ -989,8 +989,6 @@ h4.see-also {
 .toc {
   position: sticky;
   top: 1rem;
-  overflow-y: auto;
-  max-height: calc(100vh - 2rem);
 }
 
 /* Change the font size */
