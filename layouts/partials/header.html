@@ -16,7 +16,9 @@
 
 {{ else }}
 <header class="header-section {{ if $bigimg }}has-img{{ end }}">
-
+  {{ if eq .Type "single" }}
+  {{ partial "toc.html" . }}
+  {{ end }}
   <div class="intro-header no-img mt-10">
     <div class="container">
       <div class="row justify-content-center">
