@@ -981,15 +981,9 @@ h4.see-also {
   flex-direction: row;
 }
 
-.toc {
-  position: fixed;
-  top: 20px;
-  right: 20px;
-}
 
 .sticky-toc {
   position: fixed;
   top: 0;
   right: 0;
-  width: 200px; /* or whatever width you prefer */
 }
