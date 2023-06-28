@@ -1005,3 +1005,32 @@ h4.see-also {
 #toc .toc-item {
   color: #000000; /* Change this to the color you want */
 }
+
+#TableOfContents {
+  /*font-family: "Your Desired Font";*/
+  font-size: 1em;
+  color: #333;
+  line-height: 1.5;
+  padding: 10px;
+  /*border: 1px solid #ddd;*/
+  /*background-color: #f9f9f9;*/
+}
+
+ul {
+  list-style-type: none;
+}
+ul.my-list {
+  list-style-type: none;
+}
+
+.toc {
+  padding-left: 0;
+  margin-left: 0;
+}
+
+
+.toc ul {
+  list-style-type: none;
+  padding-left: 0;
+}
+
