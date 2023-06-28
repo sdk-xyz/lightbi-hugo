@@ -1026,8 +1026,13 @@ ul.my-list {
 .toc {
   padding-left: 0;
   margin-left: 0;
+  font-size: 0.9em; /* 이 값은 TOC의 폰트 사이즈를 조절합니다. 원하는 사이즈로 조절해주세요. */
+
 }
 
+.toc a {
+  /*color: black; !* 이 값은 TOC 내의 하이퍼링크 색상을 조절합니다. 원하는 색상으로 조절해주세요. *!*/
+}
 
 .toc ul {
   list-style-type: none;
