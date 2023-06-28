@@ -20,6 +20,9 @@
             <article role="main" class="blog-post">
                 {{ .Content }}
             </article>
+            <div class="toc sticky-toc">
+                {{ partial "toc.html" . }}
+            </div>
         </div>
     </div>
 
