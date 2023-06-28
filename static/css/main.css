@@ -981,24 +981,20 @@ h4.see-also {
   flex-direction: row;
 }
 
-.toc {
-  position: sticky;
-  top: 0;
-}
 
 .toc {
   position: sticky;
-  top: 1rem;
+  top: 4rem;
 }
 
 /* Change the font size */
 #toc .toc-item {
-  font-size: 16px; /* Change this to the size you want */
+  /*font-size: 16px; !* Change this to the size you want *!*/
 }
 
 /* Change the font family */
 #toc .toc-item {
-  font-family: Arial, sans-serif; /* Change this to the font you want */
+  /*font-family: Arial, sans-serif; !* Change this to the font you want *!*/
 }
 
 /* Change the color */
@@ -1010,8 +1006,8 @@ h4.see-also {
   /*font-family: "Your Desired Font";*/
   font-size: 1em;
   color: #333;
-  line-height: 1.5;
-  padding: 10px;
+  /*line-height: 1.5;*/
+  /*padding: 10px;*/
   /*border: 1px solid #ddd;*/
   /*background-color: #f9f9f9;*/
 }
@@ -1036,6 +1032,12 @@ ul.my-list {
 
 .toc ul {
   list-style-type: none;
+}
+
+.toc h1 {
   padding-left: 0;
 }
 
+.toc h2 {
+  padding-left: 0;
+}
