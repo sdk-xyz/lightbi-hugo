@@ -22,7 +22,9 @@
         </div>
         <!-- Column for ToC -->
         <div class="col-lg-2 col-md-2 toc">
+            {{ if eq .Type "posts" }}
             {{ partial "toc.html" . }}
+            {{ end }}
         </div>
     </div>
 
