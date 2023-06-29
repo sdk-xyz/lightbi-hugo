@@ -80,16 +80,32 @@
 
 
             </div>
+            <div class="disqus-comments">
+                <!--        {{ template "_internal/disqus.html" . }}-->
+                <script src="https://giscus.app/client.js"
+                        data-repo="sundoforce/blog-comments"
+                        data-repo-id="R_kgDOJ0R3hA"
+                        data-category-id="DIC_kwDOJ0R3hM4CXj3D"
+                        data-mapping="pathname"
+                        data-strict="0"
+                        data-reactions-enabled="1"
+                        data-emit-metadata="0"
+                        data-input-position="bottom"
+                        data-theme="preferred_color_scheme"
+                        data-lang="ko"
+                        crossorigin="anonymous"
+                        async>
+                </script>
+            </div>
 
-
-            <div id="utterances"></div>
-            <script src="https://utteranc.es/client.js"
-                    repo="sundoforce/blog-comments"
-                    issue-term="pathname"
-                    theme="github-light"
-                    crossorigin="anonymous"
-                    async>
-            </script>
+<!--            <div id="utterances"></div>-->
+<!--            <script src="https://utteranc.es/client.js"-->
+<!--                    repo="sundoforce/blog-comments"-->
+<!--                    issue-term="pathname"-->
+<!--                    theme="github-light"-->
+<!--                    crossorigin="anonymous"-->
+<!--                    async>-->
+<!--            </script>-->
         </div>
 
         <div class="col-lg-8 offset-lg-2 col-md-10 offset-md-1 pt-4">
@@ -151,6 +167,9 @@
     </div>
 
 
+
+
+
     {{ if (.Params.comments) | or (and (or (not (isset .Params "comments")) (eq .Params.comments nil)) (and
     .Site.Params.comments (ne .Type "page"))) }}
     {{ if .Site.DisqusShortname }}
@@ -169,9 +188,7 @@
         </script>
     </div>
     {{ else }}
-    <div class="disqus-comments">
-        {{ template "_internal/disqus.html" . }}
-    </div>
+
     {{ end }}
     {{ end }}
     {{ end }}
