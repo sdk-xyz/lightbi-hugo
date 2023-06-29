@@ -981,63 +981,30 @@ h4.see-also {
   flex-direction: row;
 }
 
-
-.toc {
-  position: sticky;
-  top: 4rem;
-}
-
-/* Change the font size */
-#toc .toc-item {
-  /*font-size: 16px; !* Change this to the size you want *!*/
-}
-
-/* Change the font family */
-#toc .toc-item {
-  /*font-family: Arial, sans-serif; !* Change this to the font you want *!*/
-}
-
-/* Change the color */
-#toc .toc-item {
-  color: #000000; /* Change this to the color you want */
-}
-
 #TableOfContents {
-  /*font-family: "Your Desired Font";*/
   font-size: 1em;
   color: #333;
-  /*line-height: 1.5;*/
-  /*padding: 10px;*/
-  /*border: 1px solid #ddd;*/
-  /*background-color: #f9f9f9;*/
-}
-
-ul {
-  list-style-type: none;
-}
-ul.my-list {
-  list-style-type: none;
-}
-
-.toc {
-  padding-left: 0;
-  margin-left: 0;
-  font-size: 0.9em; /* 이 값은 TOC의 폰트 사이즈를 조절합니다. 원하는 사이즈로 조절해주세요. */
-
-}
-
-.toc a {
-  /*color: black; !* 이 값은 TOC 내의 하이퍼링크 색상을 조절합니다. 원하는 색상으로 조절해주세요. *!*/
+  line-height: 1.5;
+  padding: 10px;
 }
 
 .toc ul {
   list-style-type: none;
+  padding-left: 0;
 }
 
 .toc h1 {
-  padding-left: 0;
+  margin-left: 0;
 }
 
 .toc h2 {
-  padding-left: 0;
+  margin-left: 1em;
+}
+
+.toc h3 {
+  margin-left: 2em;
+}
+
+.toc a {
+  color: #333; /* 원하는 색상으로 변경하세요 */
 }
