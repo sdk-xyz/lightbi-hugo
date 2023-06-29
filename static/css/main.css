@@ -967,23 +967,27 @@ h4.see-also {
   height: 8px;
   background: #4caf50;
   width: 0%;
-} 
-
-.h-30{
+}
+.h-30 {
   height: 7.5rem;
 }
 
-.fs-1{
+.fs-1 {
   font-size: 1.1rem;
 }
 
-.flex-row{
+.flex-row {
   flex-direction: row;
 }
 
+.toc {
+  position: sticky;
+  top: 4rem;
+}
+
 #TableOfContents {
-  font-size: 1em;
-  color: #333;
+  font-size: 0.9em; /* 원하는 폰트 사이즈로 조정하세요 */
+  color: #333; /* 원하는 색상으로 변경하세요 */
   line-height: 1.5;
   padding: 10px;
 }
@@ -998,11 +1002,11 @@ h4.see-also {
 }
 
 .toc h2 {
-  margin-left: 1em;
+  margin-left: 2em; /* 들여쓰기를 더 넓게 조정하세요 */
 }
 
 .toc h3 {
-  margin-left: 2em;
+  margin-left: 4em; /* 들여쓰기를 더 넓게 조정하세요 */
 }
 
 .toc a {
