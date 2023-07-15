@@ -1,1 +1,38 @@
-// {"name":"","short_name":"","icons":[{"src":"static/android-chrome-192x192.png","sizes":"192x192","type":"image/png"},{"src":"static/android-chrome-512x512.png","sizes":"512x512","type":"image/png"}],"theme_color":"#ffffff","background_color":"#ffffff","display":"standalone"}
+// {"name":"","sho rt_name":"","icons":[{"src":"static/android-chrome-192x192.png","sizes":"192x192","type":"image/png"},{"src":"static/android-chrome-512x512.png","sizes":"512x512","type":"image/png"}],"theme_color":"#ffffff","background_color":"#ffffff","display":"standalone"}
+
+
+
+
+git remote add opsman https://source.developers.google.com/p/bigdata-sa-ingest-dev/r/github_bespin-gcp-ps_opsman-terraform
+
+
+git remote -v
+opsman  https://source.developers.google.com/p/bigdata-sa-ingest-dev/r/github_bespin-gcp-ps_opsman-terraform (fetch)
+opsman  https://source.developers.google.com/p/bigdata-sa-ingest-dev/r/github_bespin-gcp-ps_opsman-terraform (push)
+origin  https://github.com/bespin-gcp-ps/opsman-terraform.git (fetch)
+origin  https://github.com/bespin-gcp-ps/opsman-terraform.git (push)
+
+
+
+SDK 스페이스, 2월 9일, 오후 5:29
+나: 조웅기WoongGi Cho  16:58
+gcloud source repos clone github_bespin-gcp-ps_opsman-terraform --project=bigdata-sa-ingest-dev
+조웅기WoongGi Cho  17:04
+gcloud source repos clone opsman-terraform --project=bigdata-sa-ingest-dev
+17:04
+gcloud init && git config --global credential.https://source.developers.google.com.helper gcloud.sh
+17:04
+git remote add google https://source.developers.google.com/p/bigdata-sa-ingest-dev/r/opsman-terraform
+source.cloud.google.com
+Develop your code on the Google Cloud Platform.
+17:04
+git remote add google https://source.developers.google.com/p/bigdata-sa-ingest-dev/r/opsman-terraform
+17:04
+git push --all google
+조웅기WoongGi Cho  17:15
+그리고 크리덴션이나 시크릿 절대 코드에 푸시하거나 저장하지 마세요
+
+
+
+
+git push opsman master
