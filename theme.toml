@@ -16,6 +16,6 @@ min_version = "0.41.0"
 
 # If porting an existing theme
 [original]
-  name = "halogenica"
-  homepage = "http://halogenica.net"
-  repo = "https://github.com/halogenica/Hugo-BeautifulHugo/"
+  name = "sdk.xyz"
+  homepage = "https://sdk.xyz"
+  repo = "https://github.com/sdk-xyz/Hugo-sdk/"
