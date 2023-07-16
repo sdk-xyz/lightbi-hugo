@@ -980,10 +980,40 @@ h4.see-also {
   flex-direction: row;
 }
 
-.toc {
-  position: sticky;
-  top: 4rem;
-}
+
+/*.toc {*/
+/*  position: sticky;*/
+/*  top: 4rem;*/
+/*}*/
+
+/*#TableOfContents {*/
+/*  font-size: 0.9em;*/
+/*  color: #333;*/
+/*  line-height: 1.5;*/
+/*  padding: 10px;*/
+/*}*/
+
+/*.toc ul {*/
+/*  list-style-type: none;*/
+/*  padding-left: 0;*/
+/*}*/
+
+/*.toc h1 {*/
+/*  margin-left: 0;*/
+/*}*/
+
+/*.toc h2 {*/
+/*  margin-left: 2em; !* 조정한 들여쓰기 *!*/
+/*}*/
+
+/*.toc h3 {*/
+/*  margin-left: 4em; !* 조정한 들여쓰기 *!*/
+/*}*/
+
+/*.toc a {*/
+/*  color: #333;*/
+/*}*/
+
 
 .toc {
   position: sticky;
@@ -991,10 +1021,12 @@ h4.see-also {
 }
 
 #TableOfContents {
-  font-size: 0.9em;
-  color: #333;
-  line-height: 1.5;
+  font-size: 14px;
+  line-height: 20px;
+  border: 1px solid #ddd;
+  border-radius: 5px;
   padding: 10px;
+  width: 200px;
 }
 
 .toc ul {
@@ -1002,18 +1034,30 @@ h4.see-also {
   padding-left: 0;
 }
 
+.toc li {
+  margin-bottom: 5px;
+}
+
 .toc h1 {
   margin-left: 0;
 }
 
 .toc h2 {
-  margin-left: 2em; /* 조정한 들여쓰기 */
+  font-size: 16px;
+  margin: 10px 0 5px 10px; /* 들여쓰기 10px */
 }
 
 .toc h3 {
-  margin-left: 4em; /* 조정한 들여쓰기 */
+  font-size: 14px;
+  font-weight: normal;
+  margin: 5px 0 5px 20px; /* 들여쓰기 20px */
 }
 
 .toc a {
-  color: #333;
+  color: #306199;
+  text-decoration: none;
+}
+
+.toc a:hover {
+  text-decoration: underline;
 }
