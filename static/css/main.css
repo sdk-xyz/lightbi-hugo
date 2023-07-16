@@ -985,9 +985,14 @@ h4.see-also {
   top: 4rem;
 }
 
+.toc {
+  position: sticky;
+  top: 4rem;
+}
+
 #TableOfContents {
-  font-size: 0.9em; /* 원하는 폰트 사이즈로 조정하세요 */
-  color: #333; /* 원하는 색상으로 변경하세요 */
+  font-size: 0.9em;
+  color: #333;
   line-height: 1.5;
   padding: 10px;
 }
@@ -1002,13 +1007,13 @@ h4.see-also {
 }
 
 .toc h2 {
-  margin-left: 2em; /* 들여쓰기를 더 넓게 조정하세요 */
+  margin-left: 2em; /* 조정한 들여쓰기 */
 }
 
 .toc h3 {
-  margin-left: 4em; /* 들여쓰기를 더 넓게 조정하세요 */
+  margin-left: 4em; /* 조정한 들여쓰기 */
 }
 
 .toc a {
-  color: #333; /* 원하는 색상으로 변경하세요 */
+  color: #333;
 }

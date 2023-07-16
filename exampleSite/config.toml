@@ -79,16 +79,6 @@ pagination = "10"
     weight = 2
 
 [[menu.main]]
-    name = "Tags"
-    url = "/tags/blog/"
-    weight = 3
-
-[[menu.main]]
-    name = "Collections"
-    url = "/collections/"
-    weight = 4
-
-[[menu.main]]
     name = "About"
     url = "/about/"
     weight = 5
