@@ -5,17 +5,17 @@ name = "Lightbi"
 license = "MIT"
 licenselink = "https://github.com/binokochumolsundokim/lightbi-hugo/blob/master/LICENSE"
 description = ""
-homepage = "https://sdk.xyz"
+homepage = "https://hugo.sdk.xyz"
 tags = ["blog", "company", "portfolio", "projects", "minimal", "responsive", "seo", "google analytics", "bootstrap", "light", "syntax highlighting", "multilingual", "portfolio", "projects", "mobile", "technical"]
 features = ["blog", "company", "portfolio", "projects", "minimal", "responsive", "seo", "google analytics", "bootstrap", "light", "syntax highlighting", "multilingual", "portfolio", "projects", "mobile", "technical"]
 min_version = "0.41.0"
 
 [author]
   name = "Bino Kochumol sundokim"
-  homepage = "https://sdk.xyz"
+  homepage = "https://hugo.sdk.xyz"
 
 # If porting an existing theme
 [original]
-  name = "sdk.xyz"
-  homepage = "https://sdk.xyz"
+  name = "hugo.sdk.xyz"
+  homepage = "https://hugo.sdk.xyz"
   repo = "https://github.com/sdk-xyz/Hugo-sdk/"

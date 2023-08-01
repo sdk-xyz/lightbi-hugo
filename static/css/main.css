@@ -1061,3 +1061,33 @@ h4.see-also {
 .toc a:hover {
   text-decoration: underline;
 }
+
+/* custom.css */
+
+.hljs{
+  display:block;
+  overflow-x:auto;
+  padding:0.5em;
+  background:#222;
+}
+
+.hljs,.hljs-subst{
+  color:#aaa;
+}
+/* Syntax Highlighting */
+.highlight {
+  background: #fff;
+}
+.highlighter-rouge .highlight {
+  background: #eef;
+}
+.highlight .c {
+  color: #998;
+  font-style: italic;
+}
+.highlight .err {
+  color: #a61717;
+  background-color: #e3d2d2;
+}
+
+/* etc */
